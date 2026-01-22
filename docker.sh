@@ -23,7 +23,7 @@ echo "==== Adding user to Docker group ===="
 sudo usermod -aG docker $USER
 
 echo "==== Creating 1GB swapfile (critical for $5 plan) ===="
-sudo fallocate -l 1G /swapfile
+sudo fallocate -l 4G /swapfile
 sudo chmod 600 /swapfile
 sudo mkswap /swapfile
 sudo swapon /swapfile
