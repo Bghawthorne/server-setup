@@ -54,4 +54,6 @@ echo "Portainer UI:"
 echo "  HTTP  : http://<your-lightsail-ip>:9000"
 echo "  HTTPS : https://<your-lightsail-ip>:9443"
 echo ""
+echo "Swap setup"
+swapon --show
 echo "Note: You may need to log out and back in for Docker group permissions to take effect."
